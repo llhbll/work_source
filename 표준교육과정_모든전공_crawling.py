@@ -17,7 +17,7 @@ sheet1.cell(row=1, column=6).value = '실습시간'
 
 driver = webdriver.Chrome()
 
-kconti_url = 'https://www.cb.or.kr/creditbank/stdPro/nStdPro1_1.do' #학사전공
+kconti_url = 'https://www.cb.or.kr/creditbank/stdPro/nStdPro1_1.do'  #학사전공 테
 driver.get(kconti_url)
 driver.maximize_window()
 
